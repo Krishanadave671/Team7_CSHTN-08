@@ -3,7 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/91900/AndroidStudioProjects/Team7_CSHTN-08/app/src/main/res/layout/activity_welcome_page.xml" value="0.176" />
+        <entry key="..\:/Users/91900/AndroidStudioProjects/Team7_CSHTN-08/app/src/main/res/drawable/circleyellowfil.xml" value="0.1" />
+        <entry key="..\:/Users/91900/AndroidStudioProjects/Team7_CSHTN-08/app/src/main/res/drawable/circular_grey_bordersolid.xml" value="0.1" />
+        <entry key="..\:/Users/91900/AndroidStudioProjects/Team7_CSHTN-08/app/src/main/res/drawable/circularbordersolid.xml" value="0.1" />
+        <entry key="..\:/Users/91900/AndroidStudioProjects/Team7_CSHTN-08/app/src/main/res/drawable/ic_arrow_back24dp.xml" value="0.1" />
+        <entry key="..\:/Users/91900/AndroidStudioProjects/Team7_CSHTN-08/app/src/main/res/drawable/ic_bg.xml" value="0.1" />
+        <entry key="..\:/Users/91900/AndroidStudioProjects/Team7_CSHTN-08/app/src/main/res/drawable/ic_call_24dp.xml" value="0.1" />
+        <entry key="..\:/Users/91900/AndroidStudioProjects/Team7_CSHTN-08/app/src/main/res/drawable/ic_email_24dp.xml" value="0.1" />
+        <entry key="..\:/Users/91900/AndroidStudioProjects/Team7_CSHTN-08/app/src/main/res/drawable/ic_location_24dp.xml" value="0.1" />
+        <entry key="..\:/Users/91900/AndroidStudioProjects/Team7_CSHTN-08/app/src/main/res/drawable/ic_notifications_white_24dp.xml" value="0.1" />
+        <entry key="..\:/Users/91900/AndroidStudioProjects/Team7_CSHTN-08/app/src/main/res/layout/activity_profile_page.xml" value="0.4" />
+        <entry key="..\:/Users/91900/AndroidStudioProjects/Team7_CSHTN-08/app/src/main/res/layout/activity_welcome_page.xml" value="0.264" />
         <entry key="..\:/Users/KRISHANA/AndroidStudioProjects/WebDev/app/src/main/res/layout/activity_main.xml" value="0.12760416666666666" />
       </map>
     </option>
