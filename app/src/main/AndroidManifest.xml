@@ -10,11 +10,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.WebDev">
         <activity
-            android:name=".login_page_activity"
+            android:name=".playActivity2"
+            android:exported="true" />
+        <activity
+            android:name=".playActivity1"
+            android:exported="true" />
+        <activity
+            android:name=".playActivity"
             android:exported="true" />
         <activity
             android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".QuizMainActivity"
             android:exported="true"/>
+        <activity
+            android:name=".login_page_activity"
+            android:exported="true" />
+
 
         <activity
             android:name=".register_page"
