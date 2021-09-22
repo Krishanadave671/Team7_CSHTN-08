@@ -10,7 +10,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.WebDev">
         <activity
+            android:name=".playActivity2"
+            android:exported="true" />
+        <activity
+            android:name=".playActivity1"
+            android:exported="true" />
+        <activity
+            android:name=".playActivity"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".QuizMainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
