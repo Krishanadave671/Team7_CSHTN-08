@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">WebDev</string>
+    <string name="main_app_name">CreateWeb</string>
+    <string name="tag_line">Learn to build efficient, beautiful websites.</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
 </resources>
