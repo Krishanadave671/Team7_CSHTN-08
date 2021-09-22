@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -13,6 +14,7 @@ public class login_page_activity extends AppCompatActivity {
     ImageView backbtn_main;
     Button login_log;
     TextView createsignup;
+    EditText loginEmail,loginPassword;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +23,8 @@ public class login_page_activity extends AppCompatActivity {
         backbtn_main = findViewById(R.id.backbtn_main);
         login_log = findViewById(R.id.login_log);
         createsignup = findViewById(R.id.createsignup);
+        loginEmail = findViewById(R.id.loginEmail);
+        loginPassword = findViewById(R.id.loginPasword);
         backbtn_main.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -33,11 +37,11 @@ public class login_page_activity extends AppCompatActivity {
                 startActivity(new Intent(login_page_activity.this,register_page.class));
             }
         });
-//        login_log.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                startActivity(new Intent(login_page_activity.this,));
-//            }
-//        });
+        login_log.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(login_page_activity.this,MainActivity.class));
+            }
+        });
     }
 }
