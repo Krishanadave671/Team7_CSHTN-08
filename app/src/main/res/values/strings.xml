@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">WebDev</string>
-
     <string name="enter_email">Enter Email</string>
     <string name="enter_password">Enter Password</string>
     <string name="remember_me">Remember me</string>
@@ -9,10 +8,11 @@
     <string name="login">Login</string>
     <string name="scroll_loginpage">scroll_loginpage</string>
     <string name="login1">login</string>
-
+    <string name="enter_username">Enter Username</string>
+    <string name="github_profile_optional">Github profile (optional)</string>
+    <string name="register">Register</string>
+    <string name="scroll_signuppage">scroll_signuppage</string>
+    <string name="full_name">Full name</string>
     <string name="main_app_name">CreateWeb</string>
     <string name="tag_line">Learn to build efficient, beautiful websites.</string>
-    <string name="login">Login</string>
-    <string name="register">Register</string>
-
 </resources>
