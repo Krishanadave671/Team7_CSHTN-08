@@ -1,7 +1,18 @@
 <resources>
     <string name="app_name">WebDev</string>
+
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="remember_me">Remember me</string>
+    <string name="forget_password">Forget password</string>
+    <string name="create_an_account">Create an Account</string>
+    <string name="login">Login</string>
+    <string name="scroll_loginpage">scroll_loginpage</string>
+    <string name="login1">login</string>
+
     <string name="main_app_name">CreateWeb</string>
     <string name="tag_line">Learn to build efficient, beautiful websites.</string>
     <string name="login">Login</string>
     <string name="register">Register</string>
+
 </resources>

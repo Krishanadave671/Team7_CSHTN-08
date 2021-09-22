@@ -13,7 +13,11 @@
             android:name=".MainActivity"
             android:exported="true"/>
         <activity
+
+            android:name=".login_page_activity"
+
             android:name=".welcomePage"
+
             android:exported="true" >
 
             <intent-filter>
