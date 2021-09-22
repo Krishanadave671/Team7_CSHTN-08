@@ -13,14 +13,14 @@
             android:name=".login_page_activity"
             android:exported="true" />
         <activity
-            android:name=".MainActivity"
+            android:name=".welcomePage"
             android:exported="true"/>
 
         <activity
             android:name=".register_page"
             android:exported="true"/>
         <activity
-            android:name=".welcomePage"
+            android:name=".MainActivity"
             android:exported="true">
 
             <intent-filter>
