@@ -8,4 +8,9 @@
     <string name="login">Login</string>
     <string name="scroll_loginpage">scroll_loginpage</string>
     <string name="login1">login</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="github_profile_optional">Github profile (optional)</string>
+    <string name="register">Register</string>
+    <string name="scroll_signuppage">scroll_signuppage</string>
+    <string name="full_name">Full name</string>
 </resources>
