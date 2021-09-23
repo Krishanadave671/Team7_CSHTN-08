@@ -8,6 +8,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.google.firebase.auth.FirebaseAuth;
+
 public class welcomePage extends AppCompatActivity {
     Button loginbtn,signinbtn, skip;
 
@@ -33,10 +35,21 @@ public class welcomePage extends AppCompatActivity {
                 finish();
             }
         });
+        skip.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(welcomePage.this,MainActivity.class));
+            }
+        });
 
 
-
-
+    }
+    @Override
+    protected void onStart(){
+            super.onStart();
+            if(FirebaseAuth.getInstance().getCurrentUser() != null){
+                startActivity(new Intent(getApplicationContext(),MainActivity.class));
+            }
 
     }
 }

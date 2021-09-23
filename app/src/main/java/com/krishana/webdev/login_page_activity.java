@@ -22,7 +22,7 @@ public class login_page_activity extends AppCompatActivity {
     ImageView backbtn_main;
     Button login_log;
     TextView createsignup;
-    private FirebaseAuth mAuth;
+     FirebaseAuth mAuth;
     TextInputLayout loginEmail,loginPassword;
 
     @Override
@@ -34,6 +34,7 @@ public class login_page_activity extends AppCompatActivity {
         createsignup = findViewById(R.id.createsignup);
         loginEmail = findViewById(R.id.Email_log);
         loginPassword = findViewById(R.id.Password_log);
+        mAuth = FirebaseAuth.getInstance();
         backbtn_main.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
