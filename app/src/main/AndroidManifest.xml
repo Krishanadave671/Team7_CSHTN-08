@@ -12,16 +12,16 @@
         <activity
             android:name=".login_page_activity"
             android:exported="true" />
-        <activity
-            android:name=".welcomePage"
-            android:exported="true"/>
 
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"/>
         <activity
             android:name=".register_page"
             android:exported="true"/>
-        <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            <activity
+                android:name=".welcomePage"
+                android:exported="true">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

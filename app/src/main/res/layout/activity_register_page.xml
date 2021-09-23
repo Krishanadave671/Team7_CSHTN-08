@@ -51,7 +51,7 @@
                 app:startIconTint="@color/black">
 
                 <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/fullName"
+
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="text" />
@@ -74,7 +74,7 @@
                 app:startIconTint="@color/black">
 
                 <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/signin_username"
+
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
 
@@ -96,7 +96,7 @@
                 app:startIconTint="@color/black">
 
                 <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/signinEmail"
+
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="textEmailAddress" />
@@ -119,7 +119,6 @@
                 app:startIconTint="@color/black">
 
                 <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/githubProfile"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="textWebEditText" />
@@ -144,7 +143,6 @@
                 app:startIconTint="@color/black">
 
                 <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/signinPassword"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="textPassword" />

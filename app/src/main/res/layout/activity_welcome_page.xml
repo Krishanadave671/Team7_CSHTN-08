@@ -86,7 +86,6 @@
 
         </LinearLayout>
 
-
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/welcome_skip"
             android:layout_width="match_parent"
