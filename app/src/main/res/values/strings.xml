@@ -26,4 +26,6 @@
     <string name="courses">COURSES</string>
     <string name="learn_more">Learn More</string>
     <string name="what_is_nweb_development">What Is\nWeb Development?</string>
+    <string name="naviagtion_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
 </resources>
