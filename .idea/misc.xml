@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+
         <entry key="..\:/Users/91900/AndroidStudioProjects/Team7_CSHTN-08/app/src/main/res/drawable/circleyellowfil.xml" value="0.1" />
         <entry key="..\:/Users/91900/AndroidStudioProjects/Team7_CSHTN-08/app/src/main/res/drawable/circular_grey_bordersolid.xml" value="0.1" />
         <entry key="..\:/Users/91900/AndroidStudioProjects/Team7_CSHTN-08/app/src/main/res/drawable/circularbordersolid.xml" value="0.1" />
@@ -14,6 +15,26 @@
         <entry key="..\:/Users/91900/AndroidStudioProjects/Team7_CSHTN-08/app/src/main/res/drawable/ic_notifications_white_24dp.xml" value="0.1" />
         <entry key="..\:/Users/91900/AndroidStudioProjects/Team7_CSHTN-08/app/src/main/res/layout/activity_profile_page.xml" value="0.4" />
         <entry key="..\:/Users/91900/AndroidStudioProjects/Team7_CSHTN-08/app/src/main/res/layout/activity_welcome_page.xml" value="0.264" />
+        <entry key="..\:/Team7_CSHTN-08/app/src/main/res/drawable/dotted.xml" value="0.1962962962962963" />
+        <entry key="..\:/Team7_CSHTN-08/app/src/main/res/drawable/dotted_vertical.xml" value="0.1962962962962963" />
+        <entry key="..\:/Team7_CSHTN-08/app/src/main/res/drawable/gradient_top.xml" value="0.1962962962962963" />
+        <entry key="..\:/Team7_CSHTN-08/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.19814814814814816" />
+        <entry key="..\:/Team7_CSHTN-08/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.19814814814814816" />
+        <entry key="..\:/Team7_CSHTN-08/app/src/main/res/drawable/ic_baseline_info_24.xml" value="0.19814814814814816" />
+        <entry key="..\:/Team7_CSHTN-08/app/src/main/res/drawable/ic_baseline_sports_esports_24.xml" value="0.19814814814814816" />
+        <entry key="..\:/Team7_CSHTN-08/app/src/main/res/drawable/logout.xml" value="0.1962962962962963" />
+        <entry key="..\:/Team7_CSHTN-08/app/src/main/res/layout/activity_login_page.xml" value="0.11503623188405797" />
+        <entry key="..\:/Team7_CSHTN-08/app/src/main/res/layout/activity_main.xml" value="0.196875" />
+        <entry key="..\:/Team7_CSHTN-08/app/src/main/res/layout/activity_register_page.xml" value="0.196875" />
+        <entry key="..\:/Team7_CSHTN-08/app/src/main/res/layout/activity_welcome_page.xml" value="0.2" />
+        <entry key="..\:/Team7_CSHTN-08/app/src/main/res/layout/nav_drawer_header.xml" value="0.196875" />
+        <entry key="..\:/Team7_CSHTN-08/app/src/main/res/menu/bottom_nav_menu.xml" value="0.196875" />
+        <entry key="..\:/Team7_CSHTN-08/app/src/main/res/menu/nav_drawer_menu.xml" value="0.196875" />
+        <entry key="..\:/Users/KRISHANA/AndroidStudioProjects/Team7_CSHTN-08/app/src/main/res/layout/activity_login_page.xml" value="0.1921182266009852" />
+        <entry key="..\:/Users/KRISHANA/AndroidStudioProjects/Team7_CSHTN-08/app/src/main/res/layout/activity_main.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/KRISHANA/AndroidStudioProjects/Team7_CSHTN-08/app/src/main/res/layout/activity_register_page.xml" value="0.1" />
+        <entry key="..\:/Users/KRISHANA/AndroidStudioProjects/Team7_CSHTN-08/app/src/main/res/layout/activity_welcome_page.xml" value="0.12760416666666666" />
+        <entry key="..\:/Users/KRISHANA/AndroidStudioProjects/Team7_CSHTN-08/app/src/main/res/layout/nav_drawer_header.xml" value="0.127604166666666
         <entry key="..\:/Users/KRISHANA/AndroidStudioProjects/WebDev/app/src/main/res/layout/activity_main.xml" value="0.12760416666666666" />
       </map>
     </option>
