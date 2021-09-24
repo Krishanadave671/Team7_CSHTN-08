@@ -12,6 +12,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.WebDev">
+
         <activity
             android:name=".videoplayer"
             android:exported="true" />
@@ -29,7 +30,10 @@
             android:exported="true" />
         <activity
             android:name=".welcomePage"
-            android:exported="true">
+            android:exported="true"/>
+            <activity
+                android:name=".Noteapp"
+                android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
