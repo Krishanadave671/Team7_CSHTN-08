@@ -44,8 +44,8 @@ public class MainActivity extends AppCompatActivity implements
                     case R.id.quiz_nav:
                         startActivity(new Intent(getApplicationContext(),QuizMainActivity.class));
                         return true;
-                    case R.id.profileDrawer:
-                        startActivity(new Intent(getApplicationContext(),profilePage.class));
+                    case R.id.assignmentDrawer:
+                        startActivity(new Intent(getApplicationContext(),AssignmentSection.class));
                         return true;
 
                 }

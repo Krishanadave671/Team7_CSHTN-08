@@ -30,8 +30,8 @@ public class QuizMainActivity extends AppCompatActivity {
                     case R.id.homeDrawer:
                         startActivity(new Intent(getApplicationContext(),MainActivity.class));
                         return true;
-                    case R.id.profileDrawer:
-                        startActivity(new Intent(getApplicationContext(),profilePage.class));
+                    case R.id.assignmentDrawer:
+                        startActivity(new Intent(getApplicationContext(),AssignmentSection.class));
                         return true;
 
                 }
