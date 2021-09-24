@@ -1,41 +1,33 @@
 {
   "project_info": {
-    "project_number": "188496811907",
-    "project_id": "team7-7139d",
-    "storage_bucket": "team7-7139d.appspot.com"
+    "project_number": "890415543064",
+    "project_id": "webdev-d88a8",
+    "storage_bucket": "webdev-d88a8.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:188496811907:android:909d1358e399783ec348b6",
+        "mobilesdk_app_id": "1:890415543064:android:b856be222682e8fdb3a46d",
         "android_client_info": {
           "package_name": "com.krishana.webdev"
         }
       },
       "oauth_client": [
         {
-          "client_id": "188496811907-3sai7839056gbaq3fm9jeb5dna8iqru9.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.krishana.webdev",
-            "certificate_hash": "6d61d94c8af28c7c4cacd37b8dc52c57989361e9"
-          }
-        },
-        {
-          "client_id": "188496811907-5ck9udr7hq4au6a951idcipe1ueb1bpb.apps.googleusercontent.com",
+          "client_id": "890415543064-6err5q2i966l2fvsun327g85p63kcqdt.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDbShd2hEZ56CtbuUeIlpTn-rntylmMelU"
+          "current_key": "AIzaSyBEUsYsamb6AdH4ry-hRe4KkpbkIP5rpIE"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "188496811907-5ck9udr7hq4au6a951idcipe1ueb1bpb.apps.googleusercontent.com",
+              "client_id": "890415543064-6err5q2i966l2fvsun327g85p63kcqdt.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
