@@ -17,7 +17,7 @@ import java.util.ArrayList;
 import java.util.Random;
 
 public class playActivity extends AppCompatActivity {
-    private TextView questiontv, questionnumbertv;
+    private TextView questiontv, questionnumbertv,QuitQuiz;
     private Button option1Btn, option2Btn, option3Btn, option4Btn;
     private ArrayList<QuizModel> quizModelArrayList;
     Random random;
@@ -33,11 +33,19 @@ public class playActivity extends AppCompatActivity {
         option2Btn = findViewById(R.id.btnoption2);
         option3Btn = findViewById(R.id.btnoption3);
         option4Btn = findViewById(R.id.btnoption4);
+        QuitQuiz = findViewById(R.id.textView4);
         quizModelArrayList = new ArrayList<>();
         random = new Random();
         getQuizQuestion(quizModelArrayList);
         currentPos = random.nextInt(quizModelArrayList.size());
         setDataToViews(currentPos);
+
+        QuitQuiz.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(playActivity.this,QuizMainActivity.class));
+            }
+        });
 
         option1Btn.setOnClickListener(new View.OnClickListener() {
             @Override

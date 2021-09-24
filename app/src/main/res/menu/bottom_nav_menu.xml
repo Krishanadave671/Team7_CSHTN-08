@@ -6,12 +6,12 @@
             android:title="HOME"
             android:icon="@drawable/ic_baseline_home_24"/>
         <item
-            android:id="@+id/followUs"
-            android:title="FOLLOW US"
+            android:id="@+id/quiz_nav"
+            android:title="QUIZ"
             android:icon="@drawable/ic_baseline_info_24"/>
         <item
-            android:id="@+id/profileDrawer"
+            android:id="@+id/assignmentDrawer"
             android:icon="@drawable/ic_baseline_sports_esports_24"
-            android:title="PROFILE" />
+            android:title="ASSIGNMENTS" />
     </group>
 </menu>

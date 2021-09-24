@@ -17,7 +17,7 @@ import java.util.ArrayList;
 import java.util.Random;
 
 public class playActivity2 extends AppCompatActivity {
-    private TextView questiontv, questionnumbertv;
+    private TextView questiontv, questionnumbertv,QuitQuiz;
     private Button option1Btn, option2Btn, option3Btn, option4Btn;
     private ArrayList<QuizModel> quizModelArrayList;
     Random random;
@@ -33,11 +33,19 @@ public class playActivity2 extends AppCompatActivity {
         option2Btn = findViewById(R.id.btnoption2);
         option3Btn = findViewById(R.id.btnoption3);
         option4Btn = findViewById(R.id.btnoption4);
+        QuitQuiz = findViewById(R.id.textView4);
         quizModelArrayList = new ArrayList<>();
         random = new Random();
         getQuizQuestion(quizModelArrayList);
         currentPos = random.nextInt(quizModelArrayList.size());
         setDataToViews(currentPos);
+
+        QuitQuiz.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(playActivity2.this,QuizMainActivity.class));
+            }
+        });
 
         option1Btn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -181,17 +189,8 @@ public class playActivity2 extends AppCompatActivity {
         quizModelArrayList.add(new QuizModel("Which of the following function of Array object joins all elements of an array into a string?","concat()","join()","pop()","map()","map()"));
         quizModelArrayList.add(new QuizModel("Which of the following function of Array object applies a function simultaneously against two values of the array (from right-to-left) as to reduce it to a single value?","pop()","push()","reduce()","reduceRight()","reduceRight()"));
         quizModelArrayList.add(new QuizModel(" What is the correct syntax for referring to an external script called “geek.js”?","<script src=”geek.js”>","<script href=”geek.js”>","<script ref=”geek.js”>","<script name=”geek.js”>","<script ref=”geek.js”>"));
-        quizModelArrayList.add(new QuizModel(" Predict the output of the following JavaScript code.\n" +
-                 "<script type=\"text/javascript\">\n" +
-                "a = 8 + \"8\";\n" +
-                "document.write(a);" +
-                "</script>","16","Compilation Error","88","Run Time Error","88"));
-        quizModelArrayList.add(new QuizModel("Predict the output of the following JavaScript code.\n" +
-                "<script type=\"text/javascript\">\n" +
-                "var a=\"GeeksforGeeks\";" +
-                "var x=a.lastIndexOf(\"G\");\n" +
-                "document.write(x);" +
-                "</script>","8","0","9","Error","8"));
+        quizModelArrayList.add(new QuizModel(" Which type of language is javascript?","Object-Oriented","Object-Based","Assembly-Language","High-Level","Object-Based"));
+        quizModelArrayList.add(new QuizModel("Which one of the following also known as Conditional Expression:","Alternative to if-else","Switch statement","If-then-else statement","immediate if","immediate if"));
         quizModelArrayList.add(new QuizModel("Which of the following is not a reserved word in JavaScript?","interface","throws","program","short","program"));
     }
 }

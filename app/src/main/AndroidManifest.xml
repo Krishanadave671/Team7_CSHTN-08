@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     package="com.krishana.webdev">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
 
     <application
         android:allowBackup="true"
@@ -14,19 +14,31 @@
         android:theme="@style/Theme.WebDev">
 
         <activity
-            android:name=".videoplayer"
+            android:name=".AssignmentSection"
             android:exported="true" />
         <activity
             android:name=".login_page_activity"
             android:exported="true" />
         <activity
-            android:name=".profilePage"
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".QuizMainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".playActivity"
+            android:exported="true" />
+        <activity
+            android:name=".playActivity1"
+            android:exported="true" />
+        <activity
+            android:name=".playActivity2"
             android:exported="true" />
         <activity
             android:name=".register_page"
             android:exported="true" />
         <activity
-            android:name=".MainActivity"
+            android:name=".profilePage"
             android:exported="true" />
         <activity
             android:name=".welcomePage"
