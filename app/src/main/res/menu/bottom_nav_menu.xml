@@ -6,8 +6,8 @@
             android:title="HOME"
             android:icon="@drawable/ic_baseline_home_24"/>
         <item
-            android:id="@+id/followUs"
-            android:title="FOLLOW US"
+            android:id="@+id/quiz_nav"
+            android:title="QUIZ"
             android:icon="@drawable/ic_baseline_info_24"/>
         <item
             android:id="@+id/profileDrawer"

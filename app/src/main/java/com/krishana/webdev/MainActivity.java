@@ -1,22 +1,27 @@
 package com.krishana.webdev;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 import com.google.android.material.appbar.MaterialToolbar;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.android.material.navigation.NavigationBarView;
 import com.google.android.material.navigation.NavigationView;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements
+        NavigationView.OnNavigationItemSelectedListener {
     DrawerLayout drawerLayout;
     NavigationView navigationView;
     MaterialToolbar toolbar;
@@ -29,8 +34,33 @@ public class MainActivity extends AppCompatActivity {
         drawerLayout=findViewById(R.id.drawer_layout);
         navigationView=findViewById(R.id.nav_drawer_main);
         toolbar=findViewById(R.id.toolbar_nav);
+        navigationView.setCheckedItem(R.id.homeDrawer);
+        BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_nav);
+        bottomNavigationView.setSelectedItemId(R.id.homeDrawer);
+        bottomNavigationView.setOnItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                switch(item.getItemId()){
+                    case R.id.quiz_nav:
+                        startActivity(new Intent(getApplicationContext(),QuizMainActivity.class));
+                        return true;
+                    case R.id.profileDrawer:
+                        startActivity(new Intent(getApplicationContext(),profilePage.class));
+                        return true;
+
+                }
+                return false;
+            }
+        });
+
 
         setSupportActionBar(toolbar);
+
+
+
+        if (navigationView != null) {
+            navigationView.setNavigationItemSelectedListener(this);
+        }
 
         ActionBarDrawerToggle toggle=new ActionBarDrawerToggle(this,drawerLayout,toolbar,R.string.naviagtion_drawer_open,R.string.navigation_drawer_close);
         drawerLayout.addDrawerListener(toggle);
@@ -68,5 +98,21 @@ public class MainActivity extends AppCompatActivity {
         }
 
         super.onBackPressed();
+    }
+
+
+
+    @Override
+    public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+        switch(item.getItemId()){
+            case R.id.homeDrawer:
+                startActivity(new Intent(this,MainActivity.class));
+                break;
+            case R.id.profileDrawer:
+                startActivity(new Intent(this,profilePage.class));
+                break;
+        }
+        drawerLayout.closeDrawer(GravityCompat.START);
+        return true;
     }
 }

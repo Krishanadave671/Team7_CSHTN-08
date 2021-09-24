@@ -20,7 +20,7 @@
     <string name="skills">Skills</string>
     <string name="ratings">Star Ratings</string>
     <string name="samplereview">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium bibendum sapien, ut euismod massa. Duis convallis sem sed turpis elementum auctor.</string>
-</resources>
+
 
     <string name="scroll_signuppage">scroll_signuppage</string>
     <string name="full_name">Full name</string>

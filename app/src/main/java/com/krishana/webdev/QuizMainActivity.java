@@ -1,11 +1,15 @@
 package com.krishana.webdev;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class QuizMainActivity extends AppCompatActivity {
     Button gohtmlbtn,gocssbtn,gojavascriptbtn;
@@ -17,6 +21,23 @@ public class QuizMainActivity extends AppCompatActivity {
         gohtmlbtn = findViewById(R.id.gohtmlBtn);
         gocssbtn = findViewById(R.id.gocssBtn);
         gojavascriptbtn = findViewById(R.id.gojavascriptBtn);
+        BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_nav);
+        bottomNavigationView.setSelectedItemId(R.id.quiz_nav);
+        bottomNavigationView.setOnItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                switch(item.getItemId()){
+                    case R.id.homeDrawer:
+                        startActivity(new Intent(getApplicationContext(),MainActivity.class));
+                        return true;
+                    case R.id.profileDrawer:
+                        startActivity(new Intent(getApplicationContext(),profilePage.class));
+                        return true;
+
+                }
+                return false;
+            }
+        });
 
         gohtmlbtn.setOnClickListener(new View.OnClickListener() {
             @Override
